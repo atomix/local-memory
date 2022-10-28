@@ -11,7 +11,7 @@ import (
 
 var log = logging.GetLogger()
 
-// AddControllers adds consensus controllers to the manager
+// AddControllers adds podmemory controllers to the manager
 func AddControllers(mgr manager.Manager) error {
 	if err := addPodMemoryStoreController(mgr); err != nil {
 		return err

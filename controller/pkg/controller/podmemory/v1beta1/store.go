@@ -35,13 +35,13 @@ func addPodMemoryStoreController(mgr manager.Manager) error {
 		Reconciler: &MultiRaftStoreReconciler{
 			client: mgr.GetClient(),
 			scheme: mgr.GetScheme(),
-			events: mgr.GetEventRecorderFor("atomix-consensus-storage"),
+			events: mgr.GetEventRecorderFor("atomix-pod-memory-storage"),
 		},
 		RateLimiter: workqueue.NewItemExponentialFailureRateLimiter(time.Millisecond*10, time.Second*5),
 	}
 
 	// Create a new controller
-	controller, err := controller.New("atomix-consensus-store-v1beta1", mgr, options)
+	controller, err := controller.New("atomix-pod-memory-store-v1beta1", mgr, options)
 	if err != nil {
 		return err
 	}
