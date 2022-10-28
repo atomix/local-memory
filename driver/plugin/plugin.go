@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/atomix/pod-memory/driver"
+	"github.com/atomix/pod-memory-storage/driver"
 	"github.com/atomix/runtime/sdk/pkg/network"
 )
 

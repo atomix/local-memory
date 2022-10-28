@@ -7,8 +7,8 @@ package main
 import (
 	"context"
 	"fmt"
-	podmemoryapis "github.com/atomix/pod-memory/controller/pkg/apis"
-	podmemoryv1beta1 "github.com/atomix/pod-memory/controller/pkg/controller/podmemory/v1beta1"
+	podmemoryapis "github.com/atomix/pod-memory-storage/controller/pkg/apis"
+	podmemoryv1beta1 "github.com/atomix/pod-memory-storage/controller/pkg/controller/podmemory/v1beta1"
 	runtimeapis "github.com/atomix/runtime/controller/pkg/apis"
 	"github.com/atomix/runtime/controller/pkg/controller/util/k8s"
 	"github.com/atomix/runtime/sdk/pkg/logging"

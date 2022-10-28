@@ -1,4 +1,4 @@
-module github.com/atomix/pod-memory/driver
+module github.com/atomix/pod-memory-storage/driver
 
 go 1.19
 

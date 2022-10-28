@@ -1,4 +1,4 @@
-module github.com/atomix/pod-memory/controller
+module github.com/atomix/pod-memory-storage/controller
 
 go 1.19
 

@@ -18,7 +18,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/source"
 	"time"
 
-	podmemoryv1beta1 "github.com/atomix/pod-memory/controller/pkg/apis/podmemory/v1beta1"
+	podmemoryv1beta1 "github.com/atomix/pod-memory-storage/controller/pkg/apis/podmemory/v1beta1"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
