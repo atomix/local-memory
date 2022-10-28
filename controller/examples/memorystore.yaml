@@ -1,0 +1,4 @@
+apiVersion: podmemory.atomix.io/v1beta1
+kind: SharedMemoryStore
+metadata:
+  name: example-pod-memory-store
